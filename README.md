@@ -1,5 +1,3 @@
-Sure, here's a sample `README.md` file you can use for your GitHub repository:
-
 # Weather App
 
 This is a simple weather app that displays weather data for a specified city. Users can search for a city by name and choose which weather data fields to display in the table. The app uses the OpenWeatherMap API to retrieve weather data.
