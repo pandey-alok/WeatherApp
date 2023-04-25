@@ -12,8 +12,4 @@ To search for weather data, type the name of a city in the search input and clic
 
 ## Credits
 
-This app was created by [pandey-alok] as a project. It uses the [OpenWeatherMap API](https://openweathermap.org/api) to retrieve weather data.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This app was created by [Alok Pandey](https://github.com/pandey-alok) as a project. It uses the [OpenWeatherMap API](https://openweathermap.org/api) to retrieve weather data.
