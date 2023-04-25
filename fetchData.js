@@ -65,7 +65,7 @@ API Structure:
 function fetchData() {
     place=fetchbyID("place");
     httpRequest= new XMLHttpRequest();
-    yourAPIKey="811a4405919e442cb3b18145b4b80834";     //Place inside double quatesyour API key from OpenWeatherMap
+    yourAPIKey="811a4405919e442cb3b18145b4b80834";     //Replace with your API key from OpenWeatherMap
     url="https://api.weatherbit.io/v2.0/current?city="+place+"&key="+yourAPIKey+"&include=minutely";
 
     httpRequest.open("GET", url);
