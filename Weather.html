@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Weather App</title>
+    <script type="text/javascript" src="fetchData.js"></script>
+</head>
+<body>
+    <Header class="index-header">
+        <div class="logo-img">
+            <img src="icon.png" alt="Logo" style="height:100%;">
+        </div>
+        <span>WeatherApp</span>
+    </Header>
+    <div class="sitecontent">
+        <span class="search">
+            <input type="text" class="search-input" id="place" placeholder="City Name" list="cityNames">
+            <datalist id="cityNames">
+                <option value="Hardoi">  
+                <option value="Greater Noida">
+                <option value="Delhi">
+                <option value="Lucknow">
+            </datalist>
+            <button type="Search" class="button" onclick="fetchData()">Search</button>
+            <button type="reset" class="button" onclick="clr()">Clear</button>
+
+            <button onclick="showCheckboxes()">Show/Hide Fields</button>
+            <div>
+                <span id="checkboxes">
+                    <label><input type="checkbox" name="dataField[]" value="temp">Temprature</label>
+                    <label><input type="checkbox" name="dataField[]" value="aqi">AQ Index</label>
+                    <label><input type="checkbox" name="dataField[]" value="precip">Precipitation</label>
+                    <label><input type="checkbox" name="dataField[]" value="snow">Snow Fall</label>
+                    <label><input type="checkbox" name="dataField[]" value="vis">Visibility</label>
+                    <label><input type="checkbox" name="dataField[]" value="clouds">Clouds</label>
+                    <label><input type="checkbox" name="dataField[]" value="solar_rad">Solar Radiation</label>
+                    <label><input type="checkbox" name="dataField[]" value="uv">UV Index</label>
+                    <label><input type="checkbox" name="dataField[]" value="sunrise">Sunrise</label>
+                    <label><input type="checkbox" name="dataField[]" value="sunset">Sunset</label>
+                    <label><input type="checkbox" name="dataField[]" value="wind_cdir_full">Wind Direction</label>
+                    <label><input type="checkbox" name="dataField[]" value="wind_spd">Wind Speed</label>
+                    <label><input type="checkbox" name="dataField[]" value="timezone">Time Zone</label>
+                    <label><input type="checkbox" name="dataField[]" value="elev_angle">Elevation</label>
+                    <label><input type="checkbox" name="dataField[]" value="weather">Weather Description</label>
+                </span>
+            </div>
+            <table id="tble"></table>
+        </span>
+    </div>
+    <footer class="index-footer">
+        <p>&copy; 2023 WeatherApp. All rights reserved.</p>
+        <p id="location">
+        <script type="text/javascript" src="footer.js"></script>
+        </p>
+    </footer>    
+</body>
+</html>

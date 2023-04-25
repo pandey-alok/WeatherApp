@@ -1,0 +1,94 @@
+body{
+    margin: 0%;
+    background-color: black;
+    height: 95vhost;
+}
+.index-header{
+    background-image:url("bg.png");
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    height: 100px;
+}
+.sitecontent{
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #a5a7a8;
+    border-radius: 5px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    bottom: 75px;
+    overflow:auto;
+}
+
+.index-footer{
+    background-image:url("bg.png");
+    height: 75px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    text-align: center;
+    font-family: "Helvetica Neue";
+
+}
+
+.logo-img{
+    padding-top: 5px;
+    text-align: center;
+    height: 75%;
+}
+
+.index-header span{
+    display: block;
+    height: 20%;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.search{
+    
+    padding: 10px;
+}
+
+.search-input{
+    padding: 2px;
+    border: 1.5px solid black;
+    color: black;
+    margin-bottom: 2%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.button{
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#tble{
+    text-align: left;
+    margin: 2% 30% 1% 30%;
+    width:40%;
+}
+
+
+
+#checkboxes{
+    padding: 0.5%;
+    width: 77%;
+    border: 1px inset white;
+    border-radius: 15px;
+}
+
+td{
+    border: 1px outset white;
+}
